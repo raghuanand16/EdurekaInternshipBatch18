@@ -1,3 +1,9 @@
+<!-- 
+Can you explain about the project management cycle of web development like Ui design process, front end, back end, testing and how the final product means website is finalised, How these process are done in companies?
+Parallax Scrolling
+Sass in Web Development
+freeze for navbar.
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,25 +11,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
     <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
     <style>
-      #custom {
-        width: 100%;
-        height: 500px;
+      #mycss {
+        background-color: red;
       }
     </style>
   </head>
   <body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link active dropdown-toggle"
+            href="#"
+            id="palak"
+            data-toggle="dropdown"
+            >Contact Us</a
+          >
+          <div class="dropdown-menu" aria-labelledby="palak">
+            <a class="dropdown-item" href="#">item10</a>
+            <a class="dropdown-item" href="#">item20</a>
+            <a class="dropdown-item" href="#">item30</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+<!--
+ <a class="btn btn-warning" data-toggle="collapse" href="#abc">
+      CLick here to show the content
+    </a>
+    <div class="collapse" id="abc">Hello Everyone I am from India.</div>
+ <div class="dropdown" id="mycss">
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-toggle="dropdown"
+        id="dropdownMenuButton"
+      >
+        DropDown
+      </button>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">item10</a>
+        <a class="dropdown-item" href="#">item20</a>
+        <a class="dropdown-item" href="#">item30</a>
+      </div>
+    </div>
+<div class="dropdown-menu">
+        <a class="dropdown-item" href="#">item1</a>
+        <a class="dropdown-item" href="#">item2</a>
+        <a class="dropdown-item" href="#">item3</a>
+      </div>
+    <div
+      class="carousel slide d-flex justify-content-center"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./breakfast.png" width="500px" height="500px" />
+        </div>
+        <div class="carousel-item">
+          <img src="./dinner.png" width="500px" height="500px" />
+        </div>
+        <div class="carousel-item">
+          <img src="./drinks.png" width="500px" height="500px" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="contianer bg-danger">
+      <p>Hello I am From India</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    
+  </body>
+</html>
+
+ <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./breakfast.png" />
+        </div>
+        <div class="carousel-item">
+          <img src="./dinner.png" />
+        </div>
+        <div class="carousel-item">
+          <img src="./drinks.png" />
+        </div>
+      </div>
+    </div>
     <div class="progress">
       <div
         class="progress-bar bg-success w-75"
@@ -49,9 +216,6 @@
       <div class="progress-bar bg-warning" style="width: 50%">50%</div>
       <div class="progress-bar bg-danger" style="width: 20%">20%</div>
     </div>
-  </body>
-</html>
-<!--
  <button type="button" class="btn btn-default">
       <span class="glyphicon glyphicon-user"></span>
     </button>
