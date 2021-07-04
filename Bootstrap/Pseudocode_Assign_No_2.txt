@@ -1,0 +1,26 @@
+body
+	div => container-fluid bg-image
+		img
+		h1
+		form
+			dropdown
+			input => type = text
+	div => container
+		h1
+		p
+		row
+			col
+				div
+					div => float = left
+						img
+					div => container/float=right/top and bottom
+						h1
+						p
+			col
+			col
+		row
+			col
+			col
+			col
+
+
