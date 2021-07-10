@@ -1,1 +1,63 @@
-Lets wait for 5 min. Since people are still joining the class.
+Javascript
+
+HTML = Static document
+CSS = Add Style in the Staic document
+JS = ???
+Bootstrap = HTML + CSS + JS => PREDEFINED
+
+
+Why Javascript ??
+    => To make the static HTML content more dynamic.
+    => To make Interactive User Interface.
+    => To provide a best User Experience.
+
+Why Dynamic ??
+    Lets consider you have a Ecommerce website
+        a) Flipkart => Browse and Select the items
+        b) XYZ => Voice Based.
+    Out of 10. 9 opted for option 2 i.e. Dynamic.......
+
+What is Javascript ???
+    => It is a programming language.
+    => We write the program which will implement dynamic nature to your web pages.
+    => Dynamic Nature ===== Behaviour of your HTML Elements.
+
+Where we can use JS in the HTML document using the following ELement <script>JS</script>
+    => you can use it inside your head tag  //css
+    => you can use it inside your body tag  //Instead of body you will use in the element Inline
+    => you can use the Js in a separate JS file.    //css
+    => you can use it inside the html tag
+
+Comments
+    ==> // This is comment in JS
+    ==> /* */ This is the comment in CSS
+    ==> <!-- --> This is the comment in HTML
+
+JS is a case sensitive language
+
+Computers => input, processing, output.....
+          => The computer does not know anything. A program tells the computer how to 
+          process the input and generate a ouput for that.
+          => you write a program using a programming language
+
+          you will tell the computer what kind of data using a concept called as
+          Variables.
+
+JS Variables
+    var => you can redeclare the same variable and change the value again and again
+        => accessed at a global level.
+    let => you cannot redeclare the same variable again but you can change the value.
+        => Both local and global level is allowed depending upon the Situation.
+    const => you cannot redeclare or you cannot change the value...
+
+JS Datatypes
+    => Number
+    => String
+    => Object
+    => Booleans
+    => Arrays
+    => undefined
+
+typeof => It is used to get the datatype detail form your Javascript compiler
+
+
