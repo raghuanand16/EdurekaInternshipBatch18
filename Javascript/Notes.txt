@@ -1,4 +1,4 @@
-Javascript
+10-July2021 - Javascript
 
 HTML = Static document
 CSS = Add Style in the Staic document
@@ -61,3 +61,97 @@ JS Datatypes
 typeof => It is used to get the datatype detail form your Javascript compiler
 
 
+11-July-2021 - Javascript
+
+Operators
+
+1) Arithmetic Operators     +       -       /       *       %       **      ++      --      
+
+2) Assignment Operators     =       +=      -=      *=      /=      %=      **=
+
+3) Comparision Operators    ==      !=      >       <       >=      <=      ?
+
+4) Logical Operators        &&      ||      !(&&)       !(||)
+
+5) Bitwise Operators        &       |       ~       ^       <<      >>
+
+A       B      A&B     A|B     ~A       A^B
+0       0       0       0       1        0
+0       1       0       1       1        1
+1       0       0       1       0        1
+1       1       1       1       0        0
+
+0 or 1 are called a Bit
+
+<<      >>
+
+7   =>  0111
+7<<2    =>  0111    =>  1100
+
+7>>2    =>  0111    =>  0001
+
+8   =>  1000
+7&8 =>  0000    =>      0
+
+<h1>Hello</h1>          => HTML Elements     => opening tag + clsing tag + content
+
+JS Arrays
+    =>  To store multiple values of same data type in a single variable.
+    =>  syntax
+        Method 1
+            var abc = [value1,value2,value3];
+            Number Arrays   =>      var abc = [1,2,3,4,5];
+            String Arrays   =>      var abc = ["apple","orange","banana"];
+        Method 2
+            Number Arrays   =>      var abc = new Array(1,2,3,4,5);
+            String Arrays   =>      var abc = new Array("apple","orange","banana");
+
+            //OOPs - Object Oriented programming
+                Array is a class
+                the new keyword is used to create a object for the class Array
+                abc is the created object
+
+Index and Length
+var abc = [1,2,3,4,5];
+Length => 5
+       => It starts from 1.
+Index => position of the value inside the Array
+      => The position inside the array always starts with 0.
+Size  => Each int occupies 4 bytes of memory space and hence 4bytes*5   = 20 Bytes 
+         [1 byte = 8 bits]
+JS is also Object Oriented.
+
+JS Loops
+=> It is used to execute some statements more than once until certain condition is reached.
+Types of JS Loops
+
+1) for  => It is a loop which will execute certain statements for a fixed number of times.
+        =>syntax
+            for(parameter1;parameter2;parameter3)
+            {
+                //certain statements
+            }
+            parameter1  => Initialize the variable with the number
+            parameter2  => Some condition, When these condition satisfies it will go to next
+                           step if not then it will run the loop again.
+            parameter3  => Increment => It will keep a count of how many times
+                           the loop has executed
+
+2) for in
+
+3) for of
+
+4) while
+
+5) do while
+
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+Array
+for
+=> Using the for loop i will access one item at a time, Each item i will pass It
+as a list inside my Ul tag
