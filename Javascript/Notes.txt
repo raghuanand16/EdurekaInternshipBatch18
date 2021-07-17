@@ -2,9 +2,9 @@
 
 HTML = Static document
 CSS = Add Style in the Staic document
-JS = ???
-Bootstrap = HTML + CSS + JS => PREDEFINED
 
+Bootstrap = HTML + CSS + JS => PREDEFINED
+JS = ???
 
 Why Javascript ??
     => To make the static HTML content more dynamic.
@@ -119,6 +119,7 @@ Index => position of the value inside the Array
       => The position inside the array always starts with 0.
 Size  => Each int occupies 4 bytes of memory space and hence 4bytes*5   = 20 Bytes 
          [1 byte = 8 bits]
+
 JS is also Object Oriented.
 
 JS Loops
@@ -155,3 +156,277 @@ Array
 for
 => Using the for loop i will access one item at a time, Each item i will pass It
 as a list inside my Ul tag
+
+
+13/July/2021
+
+Drop your questions in the question box.............
+
+1) sir is there any interview preparation session after every 3 week, 
+as i read it somewhere
+=> Check with the Back End Team. Drop a message in the Telegram Channel.
+=> Git -> 2/3 questions in interviews
+
+2) Shall I wait for the end of the class ,to shar my screen for ask the  
+assignment doubt
+    => 
+
+
+3) sir tell about var let const scope
+=> Var, let and const are actually used to declare variables in Javascript
+=> Y 3 types because depending upon the situation 
+    => you can redeclare the variable and redeclare the value
+        Ticket Counter => var
+
+    => you cannot redeclare the variable but you can redeclare the value
+        Temple => let
+
+    => you cannot redeclare your variable or you cannot redeclare the 
+        value
+        pi = 22/7   => const
+
+4) in for loop is three parameters are necessary 
+    yes. That's how the syntax is based = Compilation Error
+
+5) sir how to have two divs side by side using bootstrap
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+6) sir that day, when i ran my js in head for the  array list thing, 
+it didn't work, but worked when i made a separate file, any specific 
+reason for that ?
+=> file - not there.
+    => guess - issue with browser cache.
+    => delete the history and cookies in your browser.
+
+7) sir can you  show me  an example involving display:inline display:block 
+and display: inline-block in bootstrap  how do we involve them? 
+
+<div class="d-inline bg-success">
+    India
+</div>
+
+    =>  Behind the content India you will see Red Background
+
+<div class="d-block bg-danger">
+    India
+</div>
+
+    => Behind the content and through out the width of the page you will
+       see red background
+
+8) What is the work of cookies in website?
+    => It is used to store data from server in your browser.
+
+9) aria-hidden=true...is this a concept of javascript?
+    => DOM Element - This is in future.
+
+10) sir, can we make chat bot with java script
+    => yes you can make it.
+
+11) in future JS assignment, are we going to involve JS in the previous 
+submitted assignment
+    => I believe you have to involve them.
+
+12) cookie is used in frontend and session is used in backend is it 
+right?
+    => Correct !!
+
+13) sir how to use javascript in our websites what is done with 
+websites for we use javacript
+    => You dont have to do anything.
+    => Your browser already has the JS compiler to compile the JS code
+        that you write.
+
+14) When are we getting the next assignment?
+    Probably on coming Sunday......
+
+15) What is the use of var,lets,conts in making websites?
+    => To handle dynamic data.
+
+16) Give me a quick overview of what was covered on Sat and Sun
+    => done
+
+17) iam getting NAN while running this code
+var abc = ["apple","orange","mango"];
+List = "<ul>";
+for(var a = 0  ; a < abc.length ; a++ )
+{
+List += "<li>" + abc[a]  + "</li>"; 
+
+}
+List += "</ul>";
+
+18) sir when I opened my assignment in chrome in full  screen all the 
+elements are properly arranged but when I changed the screen size of my 
+browser everything is disturbed ..what  can I do to make  it to look
+ proper
+    => Bootstrap css and Js
+    => container ??
+    => row and col ??
+    => Is it overlapping or rearranging ??
+Drop me the program. Let me take a look at it and then i will be able to
+answer ...
+
+
+19) Drop both the code files in the Telegram channel. I will access it and
+solve your query on Thursday ! = Radha 
+
+20) sir for getting notes, do we have to cloning it everytime?
+    No not at all
+    => Only for the first time you have to clone.
+    => From second time onwards
+    => add remote origin path
+        => pull command will be repeated again and again.
+
+21)  If I use icon tag inside input tag,its showing an error,why is it so?
+    => It will show an error.
+    => 
+    <i></i><input></input>
+
+15/July/2021
+
+Drop all the questions in the chat box. As usual i will take it one by
+one
+
+1) sir, how to make  an admin panel in our web page or and 
+admin login page
+    Admin Page Design = Bootstrap   //Completed.
+    Admin Page => Backend //Incomplete
+
+2) sir what is flutter?  can we use it for web design ?
+can we use it for back end
+    => yes Flutter is in fact a UI development software.
+    => User Interface = Design Part.
+    => Mobile - Android, Ios, Kaios
+       Desktop - Windows, Linux, etc...
+       Devices and OS are more.
+       => Flutter creates a common UI which can be used on various Devices
+        and also various OS.
+    => Yes can be used for Back end too.
+
+3) Can you give headsup on React, how it works ?
+    => Not Now.
+
+4) sir,what is the diffrence between web page and web 
+application-- how can we build web application
+    => Web application = browser => It is used to access the website.
+    => Web pages are nothing but it is a part of your website.
+
+5) how many weeks will JS take to complete
+    => Sunday it will be completed. - Assignment on JS
+
+6) What are clousure in JS ?
+    => Not now.
+
+7) then backend next week onwards ?
+    => React JS
+
+8) can we make webpage with flask
+    => It is python framework which is used to built your website or 
+    web based application
+
+9) sir can you show some web design which is developed by you
+    => Tuesday.......
+
+10) Sir what is freelancing?
+    => Working for companies or individuals or for anyone who would
+    pay you directly for the work you do.
+    => Not a Regular Job. Its more like contract job.
+
+11) i guess no one has doubts beacouse you teach us in a 
+best way on the given topic
+    => One is you all have understood everything
+    => you did not understand anything.
+
+Announcement
+=> Tuesday - 6:30 to 7:30 => ???
+
+17/Jul/2021
+
+=> Java Objects
+Real world entities = Objects
+    Eg: car, bike, computer, etc....
+
+Computer is a object. This object will have properties and Methods.
+Popertiers => Ram Size, Monitor Size, Keyboard size, Mouse Type, etc....
+Method => Start, Stop, Restart, Sleep, etc..
+
+var abc = [4gb, 8gb, 102, laser]
+
+Object are also variables. store the data in the form as key: value
+or properties: value
+
+var computer = {ram_size: "4gb", monitor_size: "16inch", .............}
+
+To access the value the syntax is as follow:
+    => Object.key
+
+For in => is a type of loop which is used to iterate over a object.
+iterate => fetchging the items one by one.
+
+For in => It will iterate [going through the item one by one] the object
+    the item in object is => properties: value
+
+    for x in object =>  item by item will be accessed.
+        object[x] => you are accesing the value stored inside that item
+
+Strings
+=> is defined as Collection of characters.
+
+    => It is like a array of characters.
+    => In string the same concept as array follows:
+    => index, size and length.
+
+    => In array 
+    from left hand side, the index starts from 0
+    from right hand side, the index will start from -1
+
+=> are also used for Storing the characters.
+=> are used for performing some action on a characters.
+=> The string can contain 0 or more characters.
+=> syntax:
+    var abc = "";   //empty string
+    var abc = "Raghu"   //string
+=> you can also use a single quote to declare a string.
+    var abc = 'Raghu';
+
+=> "       ''          "
+=> '       ""          '
+
+String MEthods:
+1) length
+2) COncatenation => joins or merges more than one string together.
+                    It uses a + Operator to merge.
+
+3) slice        => Both left and right approach can be used.
+4) substring    => similar to your slice operator. WIll not accept
+                    the negative index value. Only the left approach can 
+                    be used.
+5) replace => You can replace a character or a group of characters.
+           => It will replace and create a new string.
+           => It will replace only the first encountered value.
+
+    //Homework
+6) trim => remove all the extra spaces
+7) uppercase => the string will be printed in uppercase
+8) lowwercase => the string will be printed in lowercase.
+
+JS Math
+=> Inbuilt constant values example: Math.PI, Math.E,Math.LN2, etc...
+=> round
+=> ceil
+=> floor
+=> pow
+=> sqrt
+=> max
+=> min 
+=> random
+    //Homework
+=> sin, cos, tan, log
+
