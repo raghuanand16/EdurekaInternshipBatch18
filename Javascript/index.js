@@ -44,3 +44,59 @@ var a2 = a1.replace("Edureka","India")
 document.getElementById("xyz5").innerHTML = a2;
 
 document.getElementById("xyz6").innerHTML = Math.floor(Math.random() * 7);
+
+let d1 = new Date();
+document.getElementById("xyz7").innerHTML = d1;
+
+let d2 = new Date("01/01/2021");
+document.getElementById("xyz8").innerHTML = d2;
+
+function jsvalidate(){
+      let v1 = document.forms["myform"]["fname"].value;
+      if( v1 == "")
+      {
+            alert("The First Name Field is Empty");
+            return false;
+      }
+
+      let v2 = document.forms["myform"]["lname"].value;
+      if( v2 == "")
+      {
+            alert("The Last Name Field is Empty");
+            return false;
+      }
+
+      let v3 = document.forms["myform"]["userid"].value;
+      if( v3 == "")
+      {
+            alert("The User Id Field is Empty");
+            return false;
+      }
+
+      let v4 = document.forms["myform"]["password"].value;
+      if( v4 == "")
+      {
+            alert("The Password Field is Empty");
+            return false;
+      }
+
+      let v5 = document.forms["myform"]["phno"].value;
+      if( v5 == "")
+      {
+            alert("The Phone Number Field is Empty");
+            return false;
+      }
+      else if(v5.length != 10)
+      {
+            alert("The Phone Number Field is not of 10 digits");
+            return false;
+      }
+
+}
+
+try{
+      alertt("Hello");
+}
+catch(error){
+      document.getElementById("xyz9").innerHTML = error.message;
+}

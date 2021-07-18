@@ -140,7 +140,7 @@ Types of JS Loops
 
 2) for in
 
-3) for of
+3) for of - Not a part of Agenda.
 
 4) while
 
@@ -430,3 +430,50 @@ JS Math
     //Homework
 => sin, cos, tan, log
 
+18/Jul/2021
+
+JS Date 
+    => Year, Month, Day, Hours, Minutes, Seconds and MilliSeconds.
+
+    => Month always starts from 0 to 11, 0 being Jan.
+    => For Custom Date
+let d2 = new Date(year, month, day, hour, min, second, milliseconds);
+
+JS Form Validation and Functions.
+=> It is a process to check whether the given data is appropriate or not.
+=> Yes, the server was initially handling it.
+
+=> First Name   =   10
+=> Last Name    =   10
+=> User Id Field    5
+=> Password Field   8
+=> Phone Number Field   10
+
+Hw:
+=> Address Field    30
+=> City Field       20
+=> Pincode Field    6
+=> State Field      20
+=> Checkbox - Tick if you agree to our terms and conditions.
+
+Exception handling
+=> It is a concept which is used to handle the exception(errors).
+=> It is achieved with the help of 4 keywords, namely:
+    1) try => you write the statements which may generate a error.
+    2) catch => Whenever the try statement encounters a error then that
+                error is handled by the catch statement.
+    3) throw => It is used to throw error from one part of your program
+                to another. It also lets you create your own custom errors.
+    4) finally => Whether the try statement encounters a error or not, the
+                  finally statments will just execute.
+    //pseudo code
+    try{
+        //statements;
+    }
+    catch(error){
+        statements;
+        throw error
+    }
+    finally{
+        //statments;
+    }
