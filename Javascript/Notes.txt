@@ -477,3 +477,493 @@ Exception handling
     finally{
         //statments;
     }
+
+20/Jul/2021
+
+POst all the questions.
+I will be ansering them one by one.
+
+1) can you pls explain the "forEach" loop
+=> This is a method in JS,  It will access one 
+item at a time from the array.
+=> I will access from the beginning and stops at end.
+
+var arr123 = [10,20,30,40];
+arr123.forEach(fun123);
+var text = ""
+fun123(item, index){
+    text += item + "<br/>";
+}
+
+for(initialization, condition, increment)   => developer
+initialization = starting point in the array
+condition => ending point in the array
+move from starting point to ending point
+
+10
+20
+30
+40
+
+2) sir please explain form validation again??
+
+=> validation = to check whether the user has sent 
+appropriate data as per the exceptation of the server.
+=> Eg:- Server is expecting a password.[1 U, 1 L, 1 N,
+1 Special character, minimum 8 digits maximam - 16 digits]
+
+<form name="myform">
+input type="password" name="mypassword"
+</form>
+
+ksjfguisd!12        => upper case is missing.
+
+We implement some code in js to check all these pre
+conditions.....
+
+var abc = document.forms[myform][mypassword].value ;
+abc = ksjfguisd!12;
+if(abc.length >= 8 && abc.length <=16)
+{
+    document.getelemetnbyid("abc").innerHTML = "It is false";
+}
+let x
+for (x in abc){
+    //characters from the string one by one.
+
+}
+
+3) what is a callback function and closure?
+
+4) can u please tell about method="POST/GET"?
+=> get method => HTTP Protocol.
+=> client and server is trying to communicate.
+=> post
+
+Information:
+Round will give the value of nearest integer 
+but ceil will give the nearest value greater 
+than the given number
+
+Is JS code is valid for one page or it has no limit?
+No limit.
+
+What is COncatenation ??
+=> Merging 2 or more strings together.
+Method 1
+    +
+Method 2 
+    Strcat(str1,str2)
+
+
+item and index are variable or parameters
+We pass them as Paramters but inbuilt variables.
+
+sir when we create the websites hsing html and css  
+what javascript will doing in websites when we used 
+=> Yes you can create websites using html and css
+    But these websites will be static in nature. Fixed.
+
+But if you use JS => login, signup, contact you....
+
+Can you please explain JS math?
+=> Its a class which has some methods which are related to mathematical
+operators.
+
+math.max        => 5
+math.random     => 0 to 1 => 0.56466874 *4 => <4
+math.min(1,2,3,4,5) => 1
+
+sir, substring is not working for me. can u please explain one again. 
+if i mention one digit its working but not working for (6,14) 2 digits
+
+var abc = "Hello I am in India";
+str.substring(0,5)  => Hello
+
+
+22/Jul/2021
+
+Session id and Cookies.
+Unique Key.
+
+=> Database at the back end.
+
+sir you told that in dice, Math.floor(Math.random() * 7); but it 
+will also give 0,then i think we should use Math.ceil(Math.random() * 6)
+=>  1 to 6
+
+
+can you explain, for in loop
+THese actually accesses the properties of a object.
+It will acees the Key: Value pair one by one.
+Value is passed back.
+
+var abc = {empid:"001", name:"raghu"}
+for (x in abc)      // x => empid: "001"    // x => name
+{
+    abc[name]
+}
+
+will you be explain the whole concept of payment gateway integration
+Yes if we have time. 
+
+
+30% Reactjs => Javascript
+
+are you using array of array of json method
+
+what is difference between reactjs and react native
+reactjs -> web applications
+react native -> Mobile Based applications
+
+Can you give a example of string? I mean Can you 
+show me how to do it? Methods
+
+var abc = "India";
+
+abc.length  => 5
+
+str.substring(0,1); => I
+
+abc.slice(0,1); => I
+
+abc.slice(-2,-1);   => ia 
+
+in our syllabus login and signup page backend integration is there sir?
+=> 
+
+ANy more questions ??????
+
+sir what are different ways of naming convections for variables
+=> A var should not start with a number
+=> A var can start wiht a _ symbol
+=> A var can have Upper ch, lowwer ch, numbers(it should not be the start)
+=> Case sensitive => abc != Abc
+
+
+sir, reactjs and nodejs are easy or difficult?
+No, Very Easy..
+
+can you explain hosting?
+It is like a storage area for your application.
+The users will access your application from this area.
+=> SErver.
+
+hosting in var and let concept
+
+firstName
+
+22/Jul/2021
+
+1) in javascript camel method pascal method is there or not.
+    camelize(str)
+    spilt and join 
+2) sir there are two types of variable private and public how to 
+declare private variables sir
+    private class
+    {
+        //var
+    }
+
+3) while creating class,function,method how should we use this 
+case senentive method
+=> Requirement.
+=> Any Naming convection.
+C 
+F 
+M 
+
+Bootstrap
+1) sir u said u will explain about right-side-slider or left-side -slider,
+but u didnt explain?
+    Carosal.....!!!!!!
+
+2) sir in last mentorship session, you asked to remind you to show us the 
+website products that you've made :) maybe if you like sir !!
+
+How to Implement OTP SMS Mobile Verification in JS? PLEASE EXPLAIN SIR
+You connection mobile operators.
+endpoint api => 6 field.
+
+6 fields and post method and send the data to this API.
+
+Then the mobile operator will convert that into a message ane that message
+will be shared to the desired person.
+
+in form if we fill the mobile number then otp must be send to that 
+mobile number. Is it possible with JS or We have to take connection 
+from mobile operator
+
+Not possible with JS.
+Mobile Operator.
+
+you can send email with JS.
+
+Why we using trim String? I did'nt see any use of trim.
+    During session id or cookies id...
+
+When we opened a website, there is a login option and after 
+login how can we replace that login option to his persons name ?
+2 way data binding == reactjs
+
+are we going to learn JSON  = i will teach you little bit of json.
+
+
+
+var abc = " Hey i am from India     ";
+abc.trim();
+
+// Hey i am from India
+
+Convert the data from one format to another.....
+these white spaces will be carried out. to eliminate them we use the trim 
+function.
+
+what is mean by json what is the use of it
+Java script object notation
+
+It is just a data format
+
+in starting when we login OTP verification is necessary. 
+Then how it is possible.
+
+hoisting in let and var
+Behaviour in which you can declare the variable
+var x = [1,2,3,4]
+x.length;
+
+
+what is type casting
+
++ => unary operator => convert a string into a number.
+var y = "10";
+var abc = +y;
+
+parseInt
+
+It is going to parse a string and returns a integer
+
+PasreFloat
+
+Sir when i type user id more than 5 digit my login webpage is not 
+giving alert of that but when i do the same in Create Account webpage 
+it's giving the alert.
+
+name = ??
+
+is using bootstrap with custom css the standard and the best way, 
+if i wanna start building any website ?
+
+in assigment there is a button called login and create account, how to integrate that 
+button with backend, you will cover that part in our intenship program?
+
+24th July 2021 - Saturday
+
+Javascript Versions
+=> ECMA Script = European Company Manufacturing Association
+=> 1997 - Version 1 or ECMAScript 1
+=> 1999 - VErsion 3 -> do-while, switch statement
+=> 2009 - ECMA Script 5 -> Support for JSON. MEthods for your string, Arrays.
+=> 2015 - ECMA Script 6 -> Supports parameters. let, const...
+====
+=> 2018 - ECMAScript 9..
+
+ES5
+    => 2009
+    => Major change wrt JS.
+    => Strings - Multiline strings, trim.
+    => Arrays - Indexof, forEach
+    => OBjects.
+
+ES6
+    => 2015
+    => LEt and const
+    => Classes
+    => Map Object
+    =>Array - find.
+    => promises
+    => Set Objects
+    => async features.
+
+=> 
+
+1
+2
+3 = call to a function - return some o/p
+4
+5
+
+fun1
+fun2
+fun3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this keyword
+=> Inside a object - It will access the value within the object itself.
+=> Inside a function - It will access the value from the global object inside which
+the function was located.
+=> We use the this keyword as in terms as a variable -It will access the value from 
+the global object
+=> Inside a Method - It will access the value from the global object inside which
+the function was located.
+
+=> When you use Arrow function along with the this keyword.
+    => Inside a object - It will access the value from the global object.
+
+
+
+Arrow functions
+=> ES 6
+=> shorter version for your function.
+=> THis eliminates the use of return function.
+=> func() this is also eliminated.
+
+Var Edureka;
+
+Edureka = function(){
+    var a123 = "Raghu is Trainer";
+    return a123;
+}
+
+step1 = elimation of keyword function
+
+Edureka = () => {
+    return "Raghu is Trainer";
+}
+
+step2 = eliminate the return keyword
+
+Edureka = () => "Raghu is Trainer";
+
+Events and Event Handling => done
+Onclick
+Onmouseover
+onmouseout
+hover = onmouseout + onmouseover
+
+Template string
+=> Enclose the string always with single quotes or double quotes.
+=> To use quote within a quote.
+    a) When we use double quotes outside, then WE need to use single quotes
+        inside
+    b) When we use Single quotes outside, then WE need to use double quotes
+        inside
+=> Multiline Strings
+
+    let abc =
+    `Hey I am from India,
+    I work for Edureka,
+    I love teaching.`;
+
+    innerHTML = abc;
+
+    Hey I am from India, I work for Edureka, I love teaching.
+
+=> Interpolation
+    = You can access the data from a variable.
+    = We will interpolate the variables and expressions into strings.
+
+        var i1 = "Raghu";
+        var i2 = "Anand";
+
+        var i3 = `My Trainer name is ${i1} ${i2}`;
+
+    =Interpolation => To replace the expression ${} with values.
+
+    Store the value in a variable to access it later. We use Interpolation
+    method to access it.
+
+
+Javascript class
+=> Class is like a structure or its also sometimes called as a Blueprint
+=> These act as a template for JS Objects.
+=> class keyword is used to create a class
+=> The new keyword is used to create a object for a class.
+=> With the help of the objects we will access the methods or variables 
+or anything which is present inside the class.
+=> COnstructor will initialize the objects.
+    Well it creates a seperate copy of the class for every object.
+
+2nd method of array
+=> Class called as Array.
+=> we will access the methods of this class Array using a object.
+=> 
+
+=> class (M1, M2) => new (obj1) => obj1.M1 ==> Yes or No =Yes
+There will be lot of objects ==> yes or No = Yes
+Obj1.M1(P1)
+obj2.M2
+Obj3.M1(P2)
+
+
+class Internship{
+    var name_1,name_2;
+    constructor(firstname,lastname){
+        this.firstname = name_1;
+        this.lastname = name_2;
+    }
+    name(){
+        return `I am ${name_1} ${name_2}`;
+    }
+}
+var abcobj1 = new Internship("Mahatma","Gandhi");
+
+var abcobj2 = new Internship("Shubash","Chandra Bose");
+
+
+class REst {
+    var arr = [{name: sdjkfgsdkkfg, jaf:dafaf,sdfgsdfg:dfdf},{},{}];
+    afjsdkg()
+    {
+        //statements;
+    }
+    fuksgasdfkghsdfilg(parameter1){
+            //statements;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+default params
+SetInterval
+
+Session Storage
+Local Storage
+Event Handling
+
+
+
+

@@ -50,9 +50,9 @@ document.getElementById("xyz7").innerHTML = d1;
 
 let d2 = new Date("01/01/2021");
 document.getElementById("xyz8").innerHTML = d2;
-
+let v1;
 function jsvalidate(){
-      let v1 = document.forms["myform"]["fname"].value;
+      v1 = document.forms["myform"]["fname"].value;
       if( v1 == "")
       {
             alert("The First Name Field is Empty");
@@ -100,3 +100,61 @@ try{
 catch(error){
       document.getElementById("xyz9").innerHTML = error.message;
 }
+
+//Object and this
+
+const employee1 = {
+      name: "Edureka1",
+      company: "EdTech1",
+      funname : function(){ return this.name;}
+}
+const employee2 = {
+      name: "Edureka2",
+      company: "EdTech2",
+      funname : function(){ return this.name;}
+}
+//document.getElementById("xyz10").innerHTML = employee1.funname();
+document.getElementById("xyz11").innerHTML = employee2.funname();
+
+var abcedureka = "100";
+
+var trainer = {
+      abcedureka: "50",
+      funabcedureka : () => this.abcedureka
+}
+document.getElementById("xyz10").innerHTML = trainer.funabcedureka();
+
+var i1 = "Raghu";
+var i2 = "Anand";
+
+var i3 = `My Trainer name is ${i1} ${i2}`;
+
+document.getElementById("xyz25").innerHTML = i3;
+
+var j1 = ["Apple", "Orange", "Pineapple"];
+var j2 = "<ul>";
+for(let j3 of j1){
+      j2 += `<li>${j3}</li>`;
+}
+j2 += "</ul>";
+document.getElementById("xyz26").innerHTML = j2;
+
+class Internship{
+      constructor(firstname,lastname){
+          this.firstname = firstname;
+          this.lastname = lastname;
+      }
+      name(){
+          return `I am ${this.firstname} ${this.lastname}`;
+      }
+      age(){
+            return `My Age is ${this.age}`;
+      }
+  }
+  var abcobj1 = new Internship("Mahatma","Gandhi");
+  document.getElementById("xyz27").innerHTML = abcobj1.name();
+  var abcobj2 = new Internship("Shubash","Chandra Bose");
+  document.getElementById("xyz28").innerHTML = abcobj2.name();
+
+  var consoleabc = 100;
+  console.log(consoleabc);
